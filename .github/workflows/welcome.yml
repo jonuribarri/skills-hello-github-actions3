@@ -1,16 +1,6 @@
-name: welcome workflow
-
+name: Post welcome comment
 on:
-  pull_request: 
+  pull_request:
     types: [opened]
-
-permissions: 
+permissions:
   pull-requests: write
-
-jobs:
-  runs-on:
-
-  steps:
-
-    uses:
-    name:
